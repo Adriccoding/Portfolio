@@ -17,3 +17,35 @@
 /* import bootsrap into css  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  navbar changes
+//
+///////////////////////////////////////////////////////////////////////////////
+
+.navbar, .home-callout{
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom:0px;
+}
+
+.home-callout {
+    
+    color:white;
+    background-image:url("https://www.incimages.com/uploaded_files/image/970x450/software-computer-code-1940x900_35196.jpg");
+    margin-top:-20px;
+    padding-top:50px;
+    padding-bottom:150px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    
+    color:black;
+    &:hover{
+        color:black;
+        opacity:0.5;
+    }
+}
